@@ -59,6 +59,7 @@ o The command is transferred to the server and the client process is terminated
 Also implemented the load balancing using the below constraints : 
   
 Alternating Between the Server and the Mirror
+  
  The server and the mirror (the server’s copy possibly with a few
 additions/changes) are to run on two different machines/terminals.
   
