@@ -61,8 +61,11 @@ Also implemented the load balancing using the below constraints :
 Alternating Between the Server and the Mirror
  The server and the mirror (the server’s copy possibly with a few
 additions/changes) are to run on two different machines/terminals.
+  
  The first 4 client connections are to be handled by the server.
+  
  The next 4 client connections are to be handled by the mirror.
+  
  The remaining client connections are to be handled by the server and the
 mirror in an alternating manner- (ex: connection 9 is to be handled by the
 server, connection 10 by the mirror, and so on) 
