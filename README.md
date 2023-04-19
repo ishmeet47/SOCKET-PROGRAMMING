@@ -6,6 +6,7 @@ file/files requested to the client (or an appropriate message otherwise). Multip
 connect to the server from different machines and can request file/s as per the following commands :
 
 List of Client Commands:
+
  **findfile filename**
 o If the file filename is found in its file directory tree rooted at ~, the server must
 return the filename, size(in bytes), and date created to the client and the
